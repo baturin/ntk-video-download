@@ -1,0 +1,13 @@
+{
+    "name": "abaturin/ntk-video-downloader",
+    "description": "Command line utility to download video from Novotelekom (2090000.ru) cameras",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "symfony/console": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {"Abaturin\\NtkVideoDownloader\\": "src/"}
+    }
+}
